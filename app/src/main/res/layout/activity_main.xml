@@ -54,17 +54,44 @@
         android:hint="숫자 여섯자리로 비밀번호 입력"
         android:inputType="numberPassword"/>
 
-    <TextView
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="친구 찾기"/>
+        android:text="자동 로그인"
+        android:checked="true"/>
 
-    <EditText
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일반 사용자"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기관 사용자" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="관리자" />
+
+    </RadioGroup>
+
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="친구의 닉네임을 적어주세요."
-        android:singleLine="true"
-        android:imeOptions="actionSearch"/>
+        android:text="로그인" />
 
 
 </LinearLayout>
