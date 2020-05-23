@@ -32,6 +32,12 @@
 
     </LinearLayout>
 
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tje_logo_01"
+        android:scaleType="centerCrop"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -92,6 +98,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그인" />
+
 
 
 </LinearLayout>
